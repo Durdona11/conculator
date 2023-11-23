@@ -9,43 +9,162 @@ body {
 
 .container {
   width: 375px;
-  height: 512px;
+  height: 812px;
   background: linear-gradient(180deg, #242833 0%, #16181D 100%);
-  padding: 215px 15px 15px 0;
 }
 
 .calculator {
+  align-items: center;
+  justify-content: center;
   text-align: center;
+  padding: 215px 15px 18px 10px;
+}
+
+.barcha {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-left: 10px;
+}
+
+.clr {
+  width: 121px;
+  height: 77px;
+  border-radius: 18px;
+}
+
+.del {
+  width: 121px;
+  height: 77px;
+  border-radius: 18px;
+}
+
+.bol {
+  width: 77px;
+  height: 77px;
+  border-radius: 18px;
+}
+
+.yetti {
+  width: 77px;
+  height: 77px;
+  border-radius: 18px;
+}
+
+.sakkiz {
+  width: 77px;
+  height: 77px;
+  border-radius: 18px;
+}
+
+.toqqiz {
+  width: 77px;
+  height: 77px;
+  border-radius: 18px;
+}
+
+.kopaytirish {
+  width: 77px;
+  height: 77px;
+  border-radius: 18px;
+}
+
+.tort {
+  width: 77px;
+  height: 77px;
+  border-radius: 18px;
+}
+
+.besh {
+  width: 77px;
+  height: 77px;
+  border-radius: 18px;
+}
+
+.olti {
+  width: 77px;
+  height: 77px;
+  border-radius: 18px;
+}
+
+.minus {
+  width: 77px;
+  height: 77px;
+  border-radius: 18px;
+}
+
+.bir {
+  width: 77px;
+  height: 77px;
+  border-radius: 18px;
+}
+
+.ikki {
+  width: 77px;
+  height: 77px;
+  border-radius: 18px;
+}
+
+.uch {
+  width: 77px;
+  height: 77px;
+  border-radius: 18px;
+}
+
+.qoshuv {
+  width: 77px;
+  height: 77px;
+  border-radius: 18px;
+}
+
+.nol {
+  width: 165px;
+  height: 77px;
+  border-radius: 18px;
+}
+
+.butun {
+  width: 77px;
+  height: 77px;
+  border-radius: 18px;
+}
+
+.natija {
+  width: 77px;
+  height: 77px;
+  border-radius: 18px;
 }
 
 button {
-  width: 77px;
-  height: 77px;
-  font-size: 18px;
+  width: 73px;
+  height: 73px;
+  font-size: 21px;
   border-radius: 23px;
-  margin-left: 10px;
   border: none;
   color: #fff;
-  margin-bottom: 10px;
   background: linear-gradient(180deg, #242833 0%, #16181D 100%);
 }
 
 .one {
   width: 121px;
   height: 77px;
-  background: #838ead;
+  color: #fff;
+  background: #626B7C;
+  filter: blur(1px);
 }
 
 .two {
   width: 121px;
   height: 77px;
-  background: #838ead;
+  color: #fff;
+  background: #626B7C;
+  filter: blur(1px);
 }
 
 .on {
   width: 164px;
   height: 77px;
-  background: #838ead;
+  background: #242833;
 }
 
 .light {
@@ -54,8 +173,9 @@ button {
 
 input {
   width: 300px;
-  background-color: #16181D;
+  background: linear-gradient(180deg, #242833 0%, #16181D 100%);
   margin-bottom: 20px;
   font-size: 48px;
   border: none;
+  text-align: right;
 }/*# sourceMappingURL=style.css.map */
